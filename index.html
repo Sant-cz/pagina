@@ -1,0 +1,683 @@
+<!-- Codigo hecho por ??-->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de árboles en Querétaro</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+     <style>
+    body{
+        background: linear-gradient(-45deg, #b12278, #6a0dad, #1e90ff, #ff6a00);
+        background-size: 400% 400%;
+        animation: gradientBG 10s ease infinite;
+        color: white;
+        font-family: 'Segoe UI', sans-serif;
+    }
+
+    @keyframes gradientBG {
+        0% { background-position: 0% 50%; }
+        50% { background-position: 100% 50%; }
+        100% { background-position: 0% 50%; }
+    }
+
+    .card{
+        border-radius: 20px;
+        box-shadow: 0px 6px 20px rgba(0,0,0,0.4);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255,255,255,0.2);
+    }
+
+    .card:hover{
+        transform: scale(1.05);
+        box-shadow: 0px 12px 30px rgba(0,0,0,0.6);
+    }
+
+    h1{
+        text-align: center;
+        margin-bottom: 30px;
+        font-size: 2.5rem;
+        text-shadow: 0px 4px 10px rgba(0,0,0,0.6);
+    }
+
+    h2, h3{
+        text-align: center;
+        margin: 20px;
+    }
+
+    p{
+        text-align: center;
+        font-size: 1.1rem;
+    }
+</style>
+</head>
+<body>
+    <h1><b>Querétaro cuenta con una gran diversidad de árboles nativos y ornamentales que forman parte de su identidad ecológica y urbana.</b></h1>
+    <h2><b><br>Árboles nativos y endémicos</b></h2>
+    <h3>Quéretaro alberga cerca de<b> 400 especies de árboles nativos, </b>pertenecientes a<b> 78 familias botánicas,</b> con más de 200 géneros, incluyendo especies con potencial ornamental.</h3>
+    <h2><b>Destacados</b></h2>
+    <h2><b>Distribución y ecosistemas</b></h2>
+    <h3>El estado de Querétaro tiene una cobertura vegetal diversa:<b> bosques (18.4%), matorrales (15.4%), selvas (7.7%), pastizales (6.9%)</b> y zonas agrícolas (48.7%). Los bosques de encino y coníferas predominan en las zonas montañosas, mientras que los matorrales xerófilos se encuentran en el semidesierto y las selvas caducifolias en la Sierra Gorda. Esta diversidad permite la presencia de especies adaptadas a climas secos, templados y subhúmedos.</h3>
+    <br>
+    <h2><b>Conservación y manejo urbano</b></h2>
+    <h3>El municipio de Quéretaro ha implementado campañas de <b>retiro de árboles secos o en riesgo</b> y promueve la<b> repotación de árboles peligrosos</b> para proteger a la población. Además. se desarrollan proyectos de<b> retauración de vegetación</b> y propagación artificial de especies nativas para mantener el equilibrio ecológico y la funcionalidad de los ecosistemas urbanos.</h3>
+    <br>
+    <h2><b>Función ecológica</b></h2>
+    <h3>Los árboles de Querétaro cumplen funciones vitales:<b> Proporcionan sombra, alimento y refugio a fauna local,</b> contribuyen al<b> ciclo de agua y del carbono,</b> y ayudan a<b> prevenir la erosión del suelo.</b> Especies como el nopal, la biznaga y el encino son clave para mantener la biodiversidad y la salud del ecosistema regional.<br>En resumen, Querétaro posee una<b> flora arbórea rica y diversa, con especies nativas, endémicas y ornamentales que son esenciales para la identidad del estado.</b></h3>
+    <h2><b>Especies comunes y ornamentales</b></h2>
+    <h3>En la ciudad de Querétaro, los árboles más representativos incluyen<b> Palo de brasil, Cardenche y Falso pimentero,</b> que embellecen calles y parques y contribuyen al ecosistema local. Otros árboles frecuentes son<b> Jacarandá, Bursera palmeri, Guayaba, Mango, Ahuehuete, Limonero y Papaya, </b>que se utilizan tanto con fines ornamentales como frutales, Además, especies como<b> Yucca filifera, Schinus molle y Opuntia Streptacantha</b> son comunes en áreas urbanas y semiáridas.</h3>
+    <br>
+    <h2><b>Árboles ornomentales y comunes</b></h2>
+    <div class="container mt-5">
+    <div class="row">
+        <div class="mb-2">
+            <span class="badge bg-warning text-dark fs-6">⭐ Destacados</span>
+        </div>
+<div class="container mt-4">
+    <div class="card p-4">
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol1.jpg"
+                     alt="Árbol 1"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol2.jpg"
+                     alt="Árbol 2"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Palo de Brazil</b></h2>
+                <h5 class="text-start">1. Palo de Brazil (Dracaena fragans)<br>Descripción: Planta arbustiva de hojas largas y verdes; muy usada en jardines y avenidas.<br><br>Usos: Decorativo, resistente a sequía.<br>Hábitat en Querétaro: Zonas urbanas.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol3.jpg"
+                     alt="Árbol 3"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol4.jpg"
+                     alt="Árbol 4"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Cardenche</b></h2>
+                <h5 class="text-start">2. Cardenche (Cylindropuntia imbricata)<br>Descripción: Arbusto espinoso con flores moradas.<br><br>Usos: Cercos vivos, control de erosión.<br>Hábitat: Semidesierto queretano.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol22.jpg"
+                     alt="Árbol 22"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol19.jpg"
+                     alt="Árbol 19"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Falso pimentero</b></h2>
+                <h5 class="text-start">3. Falso pimentero (Schinus molle)<br>Descripción: Copa colgante, hojas aromáticas, frutos rosados.<br><br>Usos: Sombra, ornamental.<br>Hábitat: Calles y parques.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol20.jpg"
+                     alt="Árbol 20"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol21.jpg"
+                     alt="Árbol 21"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Jacarandá</b></h2>
+                <h5 class="text-start">4. Jacarandá (Jacaranda mimosifolia)<br>Descripción: Árbol de flores moradas muy vistosas.<br><br>Usos: Embellecimiento urbano.<br>Hábitat: Zonas templadas de ls ciudad.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol17.jpg"
+                     alt="Árbol 17"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol18.jpg"
+                     alt="Árbol 18"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Bursera palmeri</b></h2>
+                <h5 class="text-start">5. Bursera palmeri<br>Descripción: Tronco aromático, hojas pequeñas; familia de los copales.<br><br>Usos: Resinas, restauración ecológica.<br>Hábitat: Zonas semiáridas y bosques bajos.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol15.jpg"
+                     alt="Árbol 15"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol16.jpg"
+                     alt="Árbol 16"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Guayaba</b></h2>
+                <h5 class="text-start">6. Guayaba (Psidium guajava)<br>Descripción: Árbol pequeño con frutos aromaticos<br><br>Usos: Alimenticio, medicinal.<br>Hábitat: Huertos y zonas rurales.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol12.jpg"
+                     alt="Árbol 12"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol11.jpg"
+                     alt="Árbol 11"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Mango</b></h2>
+                <h5 class="text-start">7. Mango (Mangifera indica)<br>Descripción: Árbol grande de copa densa; frutos dulces.<br><br>Usos: Alimenticio.<br>Hábitat: Zonas calidas de Querétaro..</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol14.jpg"
+                     alt="Árbol 14"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol13.jpg"
+                     alt="Árbol 13"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Ahuehuete</b></h2>
+                <h5 class="text-start">8. Ahuehuete (Taxodium mucronatum)<br>Descripción: Tronco grueso, muy longevo; asociado a ríos<br><br>Usos: Sombra, valor cultural.<br>Hábitat: Cercanías de cuerpos de agua.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol5.jpg"
+                     alt="Árbol 5"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol6.jpg"
+                     alt="Árbol 6"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Limonero</b></h2>
+                <h5 class="text-start">9. Limonero (Citrus limon)<br>Descripción: Árbol pequeño con frutos amarillos<br><br>Usos: Alimenticio, medicinal.<br>Hábitat: Jardines y huertos.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol7.jpg"
+                     alt="Árbol 7"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol9.jpg"
+                     alt="Árbol 9"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Papaya</b></h2>
+                <h5 class="text-start">10. Papaya (Carica papaya)<br>Descripción: Tronco delgado, hojas grandes, frutos naranjas.<br><br>Usos: Alimenticio.<br>Hábitat: Zonas cálidas.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol8.jpg"
+                     alt="Árbol 8"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol10.jpg"
+                     alt="Árbol 10"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Yucca filifera</b></h2>
+                <h5 class="text-start">11. Yucca filifera<br>Descripción: Tronco alto, hojas rígidas y puntiagudas<br><br>Usos: Ornamental, resistente a sequía.<br>Hábitat: Semidesierto queretano.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol23.jpg"
+                     alt="Árbol 23"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol24.jpg"
+                     alt="Árbol 24"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Opuntia Streptacantha</b></h2>
+                <h5 class="text-start">12. Opuntia Streptacantha<br>Descripción: Nopal grande de pencas gruesas<br><br>Usos: Alimenticio, forrajero, ecológico.<br>Hábitat: Zonas áridas</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<h1><br>Árboles nativos y endémicos</h1>
+<div class="container mt-5">
+    <div class="row">
+        <div class="mb-2">
+            <span class="badge bg-warning text-dark fs-6">⭐ Destacados</span>
+        </div>
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol25.jpg"
+                     alt="Árbol 25"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol26.jpg"
+                     alt="Árbol 26"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Quercus queretaroensis</b></h2>
+                <h5 class="text-start">13. Quercus queretaroensis (Encino queretano)<br>Características: Hojas duras; madera resistente.<br><br>Importancia: Exclusivo de Querétaro; clave para bosques de montaña<br>Hábitat: Sierra Gorda y zonas altas.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+<div class="container mt-5">
+    <div class="row">
+<div class="container mt-4">
+    <div class="card p-4">
+
+        <div class="d-flex align-items-center gap-4">
+
+            <div style="position: relative; width: 420px; height: 320px;">
+
+                <img src="imagenes/arbol27.jpg"
+                     alt="Árbol 27"
+                     style="
+                     width: 260px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 0;
+                     left: 0;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+
+                <img src="imagenes/arbol28.jpg"
+                     alt="Árbol 28 xd"
+                     style="
+                     width: 220px;
+                     border-radius: 20px;
+                     position: absolute;
+                     top: 120px;
+                     left: 170px;
+                     border: 5px solid white;
+                     box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+                     ">
+            </div>
+
+            <div style="max-width: 500px;">
+                <h2 class="text-start"><b>Agave queretaroensis</b></h2>
+                <h5 class="text-start">14. Agave queretaroensis<br>Características: Hojas largas, rígidas, azul-verdosas.<br><br>Usos: Conservación, restauración, potencial mezcalero.<br>Hábitat: Semidesierto.</h5>
+
+            </div>
+
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
